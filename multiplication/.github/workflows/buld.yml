@@ -57,7 +57,7 @@ jobs:
       # Note: In a real scenario, you might download the artifact from the 'build' job
       # instead of rebuilding. For simplicity here, we rebuild.
       - name: Build with Maven
-        run: mvn -B package --file multiplication\pom.xml
+        run: mvn -B package --file pom.xml
 
       # Exemple de déploiement sur GitHub Pages, DockerHub, ou autre
       # Ici, on va juste simuler le déploiement
